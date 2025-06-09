@@ -1,0 +1,142 @@
+body {
+    font-family: Outfit;
+    background: var(--stone-100);
+}
+
+main {
+    max-width: 40rem;
+    margin-inline: auto;
+    margin-top: 3rem;
+}
+
+.container {
+    background-color: var(--white);
+    padding: 2.5rem;
+    border-radius: 0.5rem;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2ch;
+    padding-top: 0.5lh;
+}
+
+.border-t:nth-child(4), .border-t:nth-child(5) {
+    border-top: 1.2px solid var(--stone-150);
+    padding-top: 1rem;
+}
+
+.omelette {
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+table {
+    /* border: 1px solid #dededf; */
+    height: 100%;
+    width: 100%;
+    table-layout: auto;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    text-align: left;
+}
+
+tr {
+    border-bottom: 1px solid var(--stone-150);
+   
+  }
+
+  .border-none {
+    border: none;
+  }
+  td {
+    padding: 8px 10px;
+    color: var(--stone-600);
+  }
+
+.rose-800 {
+  color: var(--rose-800);
+  font-weight: 700;
+  font-size: 0.9375rem;
+}
+  .ingredients,
+  .ingredients li {
+    padding-left: 1.4rem;
+    list-style: square outside;
+
+    ::marker {
+      font-size: 0.8em;
+    }
+  }
+
+  .table__desc {
+    color: var(--stone-600);
+  }
+
+  .instructions__list {
+    list-style: decimal outside;
+  }
+  .instructions__list,
+  .instructions__list li {
+    padding-left: 1.4rem;
+  }
+
+  .prep__time {
+    background-color: var(--rose-50);
+    padding-inline: 2rem;
+    padding-block: 1.5rem;
+    border-radius: 0.5rem;
+  }
+.prep__time-list,
+  .prep__time-list li {
+    padding-left: 1.4rem;
+  }
+
+  ::marker {
+    color: var(--rose-800);
+    font-weight: 600;
+  }
+.recipe__intro-description {
+    color: var(--stone-600);
+    /* font-size: 0.9375rem; */
+    margin-block: 1rem;
+}
+
+strong {
+  color: var(--stone-600);
+  font-size: 0.9375rem;
+}
+
+li {
+  color: var(--stone-600);
+  font-size: 0.9375rem;
+  margin-block: 0.6ch;
+}
+h2 {
+  padding-bottom: 0.3lh;
+}
+
+  @media screen and (max-width: 56.25rem) {
+    main {
+        margin-top: 0;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .text-content {
+        padding: 2.5rem;
+    }
+
+    .omelette {
+        border-radius: 0;
+    }
+  }
+
+  @media screen and (min-width: 40rem) {
+    main {
+        margin-bottom: 2.5rem;
+    }
+  }
