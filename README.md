@@ -20,8 +20,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [solution URL](https://your-solution-url.com)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/abok-cymk/recipe-page-main)
+- Live Site URL: [live site URL](https://abok-cymk.github.io/recipe-page-main/)
 
 ## My process
 
